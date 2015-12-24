@@ -43,12 +43,17 @@ $navbar-default-bg: #126090;
 }
 
 .footer ul{
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 footer ul li{
-	display: inline;
+	display: inline-block;
 	margin-left: 15px;
+	list-style: none;
+}
+
+.form_button{
+	background-color: #126090;
 }
 
 
