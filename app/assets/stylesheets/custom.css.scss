@@ -42,14 +42,9 @@ $navbar-default-bg: #126090;
 	padding-top: 165px;
 }
 
-.footer ul{
-	margin-top: 50px;
-}
-
-footer ul li{
-	display: inline-block;
-	margin-left: 15px;
-	list-style: none;
+.footer{
+	margin-top: 30px;
+	text-align: center;
 }
 
 .form_button{
@@ -68,6 +63,10 @@ footer ul li{
 	border: 2px solid #126090;
 }
 
+.article_page_title, .article_show_box, .article_title a, .form-horizontal{
+	color: #126090;
+}
+
 .article_show{
 	background-color: #bae8f9;
 }
@@ -77,15 +76,12 @@ footer ul li{
 	font-size: 28px;
 }
 
-.article_title a{
-	color: #126090;
-}
-
 .article_description{
 	border-top: 2px solid #126090;
 	padding: 20px 0 20px 0;
-
+	color: #126090;
 }
+
 
 
 
