@@ -1,2 +1,55 @@
+$navbar-default-bg: #126090;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo{
+	float: left;
+	font-size: 35px;
+	color: #ffd800;
+	font-weight: bold;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+/*#logo:hover{
+	color: white;
+	text-decoration: none;
+}*/
+
+#sign_in_button{
+	background-color: #ffd800;
+	color: #1373a3;
+	border-color: #1373a3;
+	border-width: 1px;
+	font-weight: bold;
+}
+
+.jumbotron{
+	background-image: asset-url("blue.jpg");
+	background-size: cover;
+	height: 600px;
+}
+
+.center{
+	text-align: center;
+}
+
+.jumbotron h1{
+	color: #ffd800;
+	font-weight: bold;
+	font-family: "Lucida Console", Monaco, monospace;
+	margin-bottom: 20px;
+	padding-top: 165px;
+}
+
+.footer ul{
+	margin-top: 30px;
+}
+
+footer ul li{
+	display: inline;
+	margin-left: 15px;
+}
+
+
+
