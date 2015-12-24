@@ -61,9 +61,33 @@ footer ul li{
 	padding-top: 10px;
 }
 
+.article_actions .btn-primary{
+	background-color: #ffd800;
+	color: #126090;
+	font-weight: bold;
+	border: 2px solid #126090;
+}
+
 .article_show{
 	background-color: #bae8f9;
 }
+
+.article_title{
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.article_title a{
+	color: #126090;
+}
+
+.article_description{
+	border-top: 2px solid #126090;
+	padding: 20px 0 20px 0;
+
+}
+
+
 
 
 
