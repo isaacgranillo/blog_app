@@ -55,6 +55,8 @@ end
 
 gem 'hirb'
 
+gem 'rake', '~> 10.4.2'
+
 
 
 
