@@ -3,7 +3,7 @@ class UsersController < ApplicationController
 
 
 def index
-	@users = User.all.order("username")
+	@users = User.paginate(page: params[:page], per_page: 5).order("username")
 end
 
 def new
@@ -34,6 +34,7 @@ def new
   end
 
   def show 
+  	@user_articles = @user.articles.paginate(page:params[:page], per_page: 5).order("created_at DESC")
   end
 
   private

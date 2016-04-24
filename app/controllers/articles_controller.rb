@@ -2,7 +2,7 @@ class ArticlesController < ApplicationController
 	before_action :set_article, only:[:show, :edit, :update, :destroy]
 
 def index
-	@articles = Article.all.order("created_at DESC")
+	@articles = Article.paginate(page: params[:page], per_page: 5).order("created_at DESC")
 end
 
 def new
@@ -10,7 +10,7 @@ def new
 end
 
 def create
-	debugger
+	# debugger
 	@article = Article.new(article_params)
 	@article.user = User.first
 	if @article.save
